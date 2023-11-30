@@ -37,7 +37,7 @@ jobs:
     # Add additional steps for testing your application
 
     - name: Authenticate with Google Cloud
-      uses: google-github-actions/setup-gcloud@master
+      uses: google-github-actions/setup-gcloud@v0
       with:
         version: 'latest'
         project_id: ${{ secrets.GCP_PROJECT_ID }}
